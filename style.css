@@ -4,14 +4,12 @@
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-    overflow:hidden;
 }
 
 body {
     color: #ededed;
 background: url(background.jpg);
 }
-
 
 .header {
     position: fixed;
