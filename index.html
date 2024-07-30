@@ -10,7 +10,26 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    
+    <style>
+      /* Ensure the body and html elements allow overflow */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll; /* Ensure a vertical scrollbar is always present */
+      }
+
+      /* Optionally, you can also add styling to your sections to handle overflow */
+      section {
+        overflow-y: auto;
+      }
+
+      /* Example for a specific section (if needed) */
+      .home, .about, .services, .contact {
+        max-height: 90vh; /* Adjust as needed */
+        overflow-y: auto;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
