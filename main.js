@@ -10,8 +10,8 @@ var typed= new Typed(".text",{
 // for Downloading resume;
 document.getElementById('downloadButton').addEventListener('click', function() {
   var link = document.createElement('a');
-  link.href = 'resume.pdf';
-  link.download = 'resume.pdf';
+  link.href = 'Resume.pdf';
+  link.download = 'Resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
