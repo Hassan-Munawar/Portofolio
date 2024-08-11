@@ -13,7 +13,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
   link.href = 'Resume.pdf';
   link.download = 'Resume.pdf';
   document.body.appendChild(link);
-  link.click();
+  link.click(Resume.pdf);
   document.body.removeChild(link);
 });
 
