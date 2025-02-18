@@ -44,7 +44,7 @@ body{
 }
 
 section{
-    min-height: jm0vh;
+    min-height: 100vh;
     padding:1rem;
 }
 /* End Global CSS For Whole Page*/
